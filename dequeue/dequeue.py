@@ -11,4 +11,5 @@ class Dequeue:
         return self.items.pop()
     def remove_rear(self):
         return self.items.pop(0)
-    
+    def size(self):
+        return len(self.items)

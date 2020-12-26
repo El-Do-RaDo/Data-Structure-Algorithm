@@ -3,8 +3,8 @@ import deque
 def palidrome_checker(a_string):
     char_deque = Deque()
 
-//    for ch in a_string:
-//        char_deque.add_rear(ch)
+    for ch in a_string:
+        char_deque.add_rear(ch)
 //    still_equal = True
 //
 //    while char_deque.size() > 1 and still_equal:
